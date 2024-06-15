@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css" integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: #3c4043;;
+    }
+    .body{
+        background-color: #3c4043;;
+    }
+    .navbar{
+        height: 2.5rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #3c4043;
+        border: 2px solid black;
+    }
+    /* .nav-arrow{
+        margin-left: 5px;
+    } */
+    .nav-search{
+            display: flex;
+          background-color: #3c4043;
+            width: 1300px;
+            height: 40px;
+            border-radius: 11px;
+            justify-content: space-evenly;
+            position: relative;
+
+        }
+        .google{
+position: absolute;
+left: 20px;
+top: 5px;
+font-size: 1.6rem;
+        }
+      
+        .search-input{
+        width: 100%;
+        background-color: rgb(59, 55, 55);
+        border-radius: 50px;
+        }
+        .border{
+            border:2px solid transparent;
+        }
+        .border:hover{
+            border: 2px solid white;
+        }
+        .container{
+            height: 400px;
+            display: flex;
+justify-content: center;
+align-items: center;
+
+        }
+        .title2{
+            position: relative;
+        }
+        .title{
+            font-size: 3rem;
+            position: absolute;
+            margin-left: 150px;
+            top: 10px;
+            color: white;
+        }
+        .input-line{
+            position: relative;
+            width: 600px;
+            
+        }
+        .icon{
+            position: absolute;
+            /* left: 50px; */
+            top: 170px;
+            right: 0.5px;
+        }
+        /* .input{
+            position: absolute;
+            top: 100px;
+            width: 600px;
+           
+            
+           
+        } */
+        .inpt{
+            position: absolute;
+            width: 100%;
+            margin-left: 20px;
+            top: 160px;
+            height: 40px;
+            border-radius: 2rem;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .final{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+         background-color: #3c4043;
+         font-size: 40px;
+         
+        
+       
+    }
+    .final2{
+        height: 25px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+         background-color: #3c4043;
+         font-size: 40px;
+        
+         
+        
+       
+    }
+  
+    span{
+        margin-left: 50px;
+    }
+   
+   
+        
+      
+      
+      
+
+
+       
+       
+
+    </style>
+</head>
+
+<body>
+    <header>
+<div class="navbar">
+    <div class="nav-arrow ">
+        <i class="fa-solid fa-arrow-right"></i>
+        <i class="fa-solid fa-arrow-left"></i>
+
+       
+    </div>
+   
+    <div class="nav-arrow2 ">
+        <i class="fa-solid fa-arrows-rotate"></i>
+    </div>
+   
+
+    <div class="nav-search">
+        <div class="google">
+            <i class="fa-brands fa-google" ></i>
+        </div>
+        <input  class="search-input">
+       
+    </div>
+    <div class="nav-arrow3">
+        <i class="fa-regular fa-clipboard"></i>
+    </div>
+    <div class="nav-arrow3">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+</div>
+
+    </header>
+    <div class="container">
+        <div class="main">
+            <div class="title2">
+        <div class="title">
+<h1>Google</h1>
+        </div>
+    </div>
+
+      <div class="input-line">
+       
+        <!-- <div class="input"> -->
+            <input class="inpt" placeholder="Search Google or type a URL">
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        <!-- </div> -->
+      </div>
+    </div>
+
+
+
+   
+    </div>
+
+<div class="final">
+<!-- <div class="logos"> -->
+   
+    <i class="fa-brands fa-facebook border"></i>
+
+   
+    <span><i class="fa-brands fa-linkedin border"></i></span>
+    <span><i class="fa-brands fa-youtube border"></i></span>
+    <span><i class="fa-brands fa-wordpress border"></i></span>
+   
+</div>
+
+<div class="final2">
+    <!-- <div class="logos"> -->
+       
+        <i class="fa-solid fa-folder border"></i>
+    
+       
+        <span><i class="fa-brands fa-twitter border"></i></span>
+        <span><i class="fa-brands fa-instagram border"></i></span>
+        <span><i class="fa-solid fa-inbox border"></i></i></span>
+       
+    </div>
+
+
+
+<!-- </div> -->
+       
+
+
+   
+</body>
+</html>
